@@ -1,0 +1,1165 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33F74DC7280130C100322E7A /* WineTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74DC6280130C100322E7A /* WineTrackerApp.swift */; };
+		33F74DC9280130C100322E7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74DC8280130C100322E7A /* ContentView.swift */; };
+		33F74DCB280130C200322E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F74DCA280130C200322E7A /* Assets.xcassets */; };
+		33F74DCE280130C200322E7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F74DCD280130C200322E7A /* Preview Assets.xcassets */; };
+		33F74DD8280130C300322E7A /* WineTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74DD7280130C300322E7A /* WineTrackerTests.swift */; };
+		33F74DE2280130C300322E7A /* WineTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74DE1280130C300322E7A /* WineTrackerUITests.swift */; };
+		33F74DE4280130C300322E7A /* WineTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74DE3280130C300322E7A /* WineTrackerUITestsLaunchTests.swift */; };
+		33F74DE8280130C300322E7A /* WineTracker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 33F74DE7280130C300322E7A /* WineTracker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33F74DED280130C300322E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F74DEC280130C300322E7A /* Assets.xcassets */; };
+		33F74DF3280130C400322E7A /* WineTracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 33F74DF2280130C400322E7A /* WineTracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33F74DF8280130C400322E7A /* WineTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74DF7280130C400322E7A /* WineTrackerApp.swift */; };
+		33F74DFA280130C400322E7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74DF9280130C400322E7A /* ContentView.swift */; };
+		33F74DFC280130C400322E7A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74DFB280130C400322E7A /* NotificationController.swift */; };
+		33F74DFE280130C400322E7A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74DFD280130C400322E7A /* NotificationView.swift */; };
+		33F74E00280130C400322E7A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74DFF280130C400322E7A /* ComplicationController.swift */; };
+		33F74E02280130C400322E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F74E01280130C400322E7A /* Assets.xcassets */; };
+		33F74E05280130C400322E7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F74E04280130C400322E7A /* Preview Assets.xcassets */; };
+		33F74E11280130C400322E7A /* WineTracker_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74E10280130C400322E7A /* WineTracker_WatchKit_AppTests.swift */; };
+		33F74E1B280130C400322E7A /* WineTracker_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74E1A280130C400322E7A /* WineTracker_WatchKit_AppUITests.swift */; };
+		33F74E1D280130C400322E7A /* WineTracker_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F74E1C280130C400322E7A /* WineTracker_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33F74DD4280130C300322E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F74DBB280130C100322E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F74DC2280130C100322E7A;
+			remoteInfo = WineTracker;
+		};
+		33F74DDE280130C300322E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F74DBB280130C100322E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F74DC2280130C100322E7A;
+			remoteInfo = WineTracker;
+		};
+		33F74DE9280130C300322E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F74DBB280130C100322E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F74DE6280130C300322E7A;
+			remoteInfo = "WineTracker WatchKit App";
+		};
+		33F74DF4280130C400322E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F74DBB280130C100322E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F74DF1280130C400322E7A;
+			remoteInfo = "WineTracker WatchKit Extension";
+		};
+		33F74E0D280130C400322E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F74DBB280130C100322E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F74DF1280130C400322E7A;
+			remoteInfo = "WineTracker WatchKit Extension";
+		};
+		33F74E17280130C400322E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F74DBB280130C100322E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F74DE6280130C300322E7A;
+			remoteInfo = "WineTracker WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33F74E23280130C500322E7A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				33F74DF3280130C400322E7A /* WineTracker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74E27280130C500322E7A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				33F74DE8280130C300322E7A /* WineTracker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		33F74DC3280130C100322E7A /* WineTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F74DC6280130C100322E7A /* WineTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTrackerApp.swift; sourceTree = "<group>"; };
+		33F74DC8280130C100322E7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33F74DCA280130C200322E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33F74DCD280130C200322E7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33F74DD3280130C300322E7A /* WineTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F74DD7280130C300322E7A /* WineTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTrackerTests.swift; sourceTree = "<group>"; };
+		33F74DDD280130C300322E7A /* WineTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F74DE1280130C300322E7A /* WineTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTrackerUITests.swift; sourceTree = "<group>"; };
+		33F74DE3280130C300322E7A /* WineTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33F74DE7280130C300322E7A /* WineTracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WineTracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F74DEC280130C300322E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33F74DF2280130C400322E7A /* WineTracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WineTracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F74DF7280130C400322E7A /* WineTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTrackerApp.swift; sourceTree = "<group>"; };
+		33F74DF9280130C400322E7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33F74DFB280130C400322E7A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		33F74DFD280130C400322E7A /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		33F74DFF280130C400322E7A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		33F74E01280130C400322E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33F74E04280130C400322E7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33F74E06280130C400322E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F74E07280130C400322E7A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		33F74E0C280130C400322E7A /* WineTracker WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WineTracker WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F74E10280130C400322E7A /* WineTracker_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTracker_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		33F74E16280130C400322E7A /* WineTracker WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WineTracker WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F74E1A280130C400322E7A /* WineTracker_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTracker_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		33F74E1C280130C400322E7A /* WineTracker_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineTracker_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33F74DC0280130C100322E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74DD0280130C300322E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74DDA280130C300322E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74DEF280130C400322E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74E09280130C400322E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74E13280130C400322E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F74DBA280130C100322E7A = {
+			isa = PBXGroup;
+			children = (
+				33F74DC5280130C100322E7A /* WineTracker */,
+				33F74DD6280130C300322E7A /* WineTrackerTests */,
+				33F74DE0280130C300322E7A /* WineTrackerUITests */,
+				33F74DEB280130C300322E7A /* WineTracker WatchKit App */,
+				33F74DF6280130C400322E7A /* WineTracker WatchKit Extension */,
+				33F74E0F280130C400322E7A /* WineTracker WatchKit AppTests */,
+				33F74E19280130C400322E7A /* WineTracker WatchKit AppUITests */,
+				33F74DC4280130C100322E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33F74DC4280130C100322E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33F74DC3280130C100322E7A /* WineTracker.app */,
+				33F74DD3280130C300322E7A /* WineTrackerTests.xctest */,
+				33F74DDD280130C300322E7A /* WineTrackerUITests.xctest */,
+				33F74DE7280130C300322E7A /* WineTracker WatchKit App.app */,
+				33F74DF2280130C400322E7A /* WineTracker WatchKit Extension.appex */,
+				33F74E0C280130C400322E7A /* WineTracker WatchKit AppTests.xctest */,
+				33F74E16280130C400322E7A /* WineTracker WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33F74DC5280130C100322E7A /* WineTracker */ = {
+			isa = PBXGroup;
+			children = (
+				33F74DC6280130C100322E7A /* WineTrackerApp.swift */,
+				33F74DC8280130C100322E7A /* ContentView.swift */,
+				33F74DCA280130C200322E7A /* Assets.xcassets */,
+				33F74DCC280130C200322E7A /* Preview Content */,
+			);
+			path = WineTracker;
+			sourceTree = "<group>";
+		};
+		33F74DCC280130C200322E7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33F74DCD280130C200322E7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33F74DD6280130C300322E7A /* WineTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				33F74DD7280130C300322E7A /* WineTrackerTests.swift */,
+			);
+			path = WineTrackerTests;
+			sourceTree = "<group>";
+		};
+		33F74DE0280130C300322E7A /* WineTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33F74DE1280130C300322E7A /* WineTrackerUITests.swift */,
+				33F74DE3280130C300322E7A /* WineTrackerUITestsLaunchTests.swift */,
+			);
+			path = WineTrackerUITests;
+			sourceTree = "<group>";
+		};
+		33F74DEB280130C300322E7A /* WineTracker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				33F74DEC280130C300322E7A /* Assets.xcassets */,
+			);
+			path = "WineTracker WatchKit App";
+			sourceTree = "<group>";
+		};
+		33F74DF6280130C400322E7A /* WineTracker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				33F74DF7280130C400322E7A /* WineTrackerApp.swift */,
+				33F74DF9280130C400322E7A /* ContentView.swift */,
+				33F74DFB280130C400322E7A /* NotificationController.swift */,
+				33F74DFD280130C400322E7A /* NotificationView.swift */,
+				33F74DFF280130C400322E7A /* ComplicationController.swift */,
+				33F74E01280130C400322E7A /* Assets.xcassets */,
+				33F74E06280130C400322E7A /* Info.plist */,
+				33F74E07280130C400322E7A /* PushNotificationPayload.apns */,
+				33F74E03280130C400322E7A /* Preview Content */,
+			);
+			path = "WineTracker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		33F74E03280130C400322E7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33F74E04280130C400322E7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33F74E0F280130C400322E7A /* WineTracker WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				33F74E10280130C400322E7A /* WineTracker_WatchKit_AppTests.swift */,
+			);
+			path = "WineTracker WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		33F74E19280130C400322E7A /* WineTracker WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33F74E1A280130C400322E7A /* WineTracker_WatchKit_AppUITests.swift */,
+				33F74E1C280130C400322E7A /* WineTracker_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "WineTracker WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33F74DC2280130C100322E7A /* WineTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F74E28280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTracker" */;
+			buildPhases = (
+				33F74DBF280130C100322E7A /* Sources */,
+				33F74DC0280130C100322E7A /* Frameworks */,
+				33F74DC1280130C100322E7A /* Resources */,
+				33F74E27280130C500322E7A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F74DEA280130C300322E7A /* PBXTargetDependency */,
+			);
+			name = WineTracker;
+			productName = WineTracker;
+			productReference = 33F74DC3280130C100322E7A /* WineTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33F74DD2280130C300322E7A /* WineTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F74E2B280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTrackerTests" */;
+			buildPhases = (
+				33F74DCF280130C300322E7A /* Sources */,
+				33F74DD0280130C300322E7A /* Frameworks */,
+				33F74DD1280130C300322E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F74DD5280130C300322E7A /* PBXTargetDependency */,
+			);
+			name = WineTrackerTests;
+			productName = WineTrackerTests;
+			productReference = 33F74DD3280130C300322E7A /* WineTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33F74DDC280130C300322E7A /* WineTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F74E2E280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTrackerUITests" */;
+			buildPhases = (
+				33F74DD9280130C300322E7A /* Sources */,
+				33F74DDA280130C300322E7A /* Frameworks */,
+				33F74DDB280130C300322E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F74DDF280130C300322E7A /* PBXTargetDependency */,
+			);
+			name = WineTrackerUITests;
+			productName = WineTrackerUITests;
+			productReference = 33F74DDD280130C300322E7A /* WineTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		33F74DE6280130C300322E7A /* WineTracker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F74E24280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTracker WatchKit App" */;
+			buildPhases = (
+				33F74DE5280130C300322E7A /* Resources */,
+				33F74E23280130C500322E7A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F74DF5280130C400322E7A /* PBXTargetDependency */,
+			);
+			name = "WineTracker WatchKit App";
+			productName = "WineTracker WatchKit App";
+			productReference = 33F74DE7280130C300322E7A /* WineTracker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		33F74DF1280130C400322E7A /* WineTracker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F74E20280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTracker WatchKit Extension" */;
+			buildPhases = (
+				33F74DEE280130C400322E7A /* Sources */,
+				33F74DEF280130C400322E7A /* Frameworks */,
+				33F74DF0280130C400322E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WineTracker WatchKit Extension";
+			productName = "WineTracker WatchKit Extension";
+			productReference = 33F74DF2280130C400322E7A /* WineTracker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		33F74E0B280130C400322E7A /* WineTracker WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F74E31280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTracker WatchKit AppTests" */;
+			buildPhases = (
+				33F74E08280130C400322E7A /* Sources */,
+				33F74E09280130C400322E7A /* Frameworks */,
+				33F74E0A280130C400322E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F74E0E280130C400322E7A /* PBXTargetDependency */,
+			);
+			name = "WineTracker WatchKit AppTests";
+			productName = "WineTracker WatchKit AppTests";
+			productReference = 33F74E0C280130C400322E7A /* WineTracker WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33F74E15280130C400322E7A /* WineTracker WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F74E34280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTracker WatchKit AppUITests" */;
+			buildPhases = (
+				33F74E12280130C400322E7A /* Sources */,
+				33F74E13280130C400322E7A /* Frameworks */,
+				33F74E14280130C400322E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F74E18280130C400322E7A /* PBXTargetDependency */,
+			);
+			name = "WineTracker WatchKit AppUITests";
+			productName = "WineTracker WatchKit AppUITests";
+			productReference = 33F74E16280130C400322E7A /* WineTracker WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33F74DBB280130C100322E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					33F74DC2280130C100322E7A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					33F74DD2280130C300322E7A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 33F74DC2280130C100322E7A;
+					};
+					33F74DDC280130C300322E7A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 33F74DC2280130C100322E7A;
+					};
+					33F74DE6280130C300322E7A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					33F74DF1280130C400322E7A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					33F74E0B280130C400322E7A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 33F74DF1280130C400322E7A;
+					};
+					33F74E15280130C400322E7A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 33F74DE6280130C300322E7A;
+					};
+				};
+			};
+			buildConfigurationList = 33F74DBE280130C100322E7A /* Build configuration list for PBXProject "WineTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33F74DBA280130C100322E7A;
+			productRefGroup = 33F74DC4280130C100322E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33F74DC2280130C100322E7A /* WineTracker */,
+				33F74DD2280130C300322E7A /* WineTrackerTests */,
+				33F74DDC280130C300322E7A /* WineTrackerUITests */,
+				33F74DE6280130C300322E7A /* WineTracker WatchKit App */,
+				33F74DF1280130C400322E7A /* WineTracker WatchKit Extension */,
+				33F74E0B280130C400322E7A /* WineTracker WatchKit AppTests */,
+				33F74E15280130C400322E7A /* WineTracker WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33F74DC1280130C100322E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F74DCE280130C200322E7A /* Preview Assets.xcassets in Resources */,
+				33F74DCB280130C200322E7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74DD1280130C300322E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74DDB280130C300322E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74DE5280130C300322E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F74DED280130C300322E7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74DF0280130C400322E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F74E05280130C400322E7A /* Preview Assets.xcassets in Resources */,
+				33F74E02280130C400322E7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74E0A280130C400322E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74E14280130C400322E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33F74DBF280130C100322E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F74DC9280130C100322E7A /* ContentView.swift in Sources */,
+				33F74DC7280130C100322E7A /* WineTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74DCF280130C300322E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F74DD8280130C300322E7A /* WineTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74DD9280130C300322E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F74DE4280130C300322E7A /* WineTrackerUITestsLaunchTests.swift in Sources */,
+				33F74DE2280130C300322E7A /* WineTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74DEE280130C400322E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F74DFC280130C400322E7A /* NotificationController.swift in Sources */,
+				33F74DFA280130C400322E7A /* ContentView.swift in Sources */,
+				33F74E00280130C400322E7A /* ComplicationController.swift in Sources */,
+				33F74DF8280130C400322E7A /* WineTrackerApp.swift in Sources */,
+				33F74DFE280130C400322E7A /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74E08280130C400322E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F74E11280130C400322E7A /* WineTracker_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F74E12280130C400322E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F74E1B280130C400322E7A /* WineTracker_WatchKit_AppUITests.swift in Sources */,
+				33F74E1D280130C400322E7A /* WineTracker_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33F74DD5280130C300322E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F74DC2280130C100322E7A /* WineTracker */;
+			targetProxy = 33F74DD4280130C300322E7A /* PBXContainerItemProxy */;
+		};
+		33F74DDF280130C300322E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F74DC2280130C100322E7A /* WineTracker */;
+			targetProxy = 33F74DDE280130C300322E7A /* PBXContainerItemProxy */;
+		};
+		33F74DEA280130C300322E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F74DE6280130C300322E7A /* WineTracker WatchKit App */;
+			targetProxy = 33F74DE9280130C300322E7A /* PBXContainerItemProxy */;
+		};
+		33F74DF5280130C400322E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F74DF1280130C400322E7A /* WineTracker WatchKit Extension */;
+			targetProxy = 33F74DF4280130C400322E7A /* PBXContainerItemProxy */;
+		};
+		33F74E0E280130C400322E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F74DF1280130C400322E7A /* WineTracker WatchKit Extension */;
+			targetProxy = 33F74E0D280130C400322E7A /* PBXContainerItemProxy */;
+		};
+		33F74E18280130C400322E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F74DE6280130C300322E7A /* WineTracker WatchKit App */;
+			targetProxy = 33F74E17280130C400322E7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33F74E1E280130C500322E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33F74E1F280130C500322E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		33F74E21280130C500322E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WineTracker WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WineTracker WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WineTracker WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdev.WineTracker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		33F74E22280130C500322E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WineTracker WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WineTracker WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WineTracker WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdev.WineTracker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		33F74E25280130C500322E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WineTracker_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "WineTracker WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.silverdev.WineTracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdev.WineTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		33F74E26280130C500322E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WineTracker_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "WineTracker WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.silverdev.WineTracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdev.WineTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		33F74E29280130C500322E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WineTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdev.WineTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33F74E2A280130C500322E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WineTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdev.WineTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33F74E2C280130C500322E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdev.WineTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WineTracker.app/WineTracker";
+			};
+			name = Debug;
+		};
+		33F74E2D280130C500322E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdev.WineTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WineTracker.app/WineTracker";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33F74E2F280130C500322E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdev.WineTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WineTracker;
+			};
+			name = Debug;
+		};
+		33F74E30280130C500322E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silverdev.WineTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WineTracker;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33F74E32280130C500322E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverdev.WineTracker-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WineTracker WatchKit Extension.appex/WineTracker WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		33F74E33280130C500322E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverdev.WineTracker-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WineTracker WatchKit Extension.appex/WineTracker WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		33F74E35280130C500322E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverdev.WineTracker-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WineTracker WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		33F74E36280130C500322E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TF84BYJ5SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverdev.WineTracker-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WineTracker WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33F74DBE280130C100322E7A /* Build configuration list for PBXProject "WineTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F74E1E280130C500322E7A /* Debug */,
+				33F74E1F280130C500322E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F74E20280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTracker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F74E21280130C500322E7A /* Debug */,
+				33F74E22280130C500322E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F74E24280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTracker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F74E25280130C500322E7A /* Debug */,
+				33F74E26280130C500322E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F74E28280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F74E29280130C500322E7A /* Debug */,
+				33F74E2A280130C500322E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F74E2B280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F74E2C280130C500322E7A /* Debug */,
+				33F74E2D280130C500322E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F74E2E280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F74E2F280130C500322E7A /* Debug */,
+				33F74E30280130C500322E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F74E31280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTracker WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F74E32280130C500322E7A /* Debug */,
+				33F74E33280130C500322E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F74E34280130C500322E7A /* Build configuration list for PBXNativeTarget "WineTracker WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F74E35280130C500322E7A /* Debug */,
+				33F74E36280130C500322E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33F74DBB280130C100322E7A /* Project object */;
+}
